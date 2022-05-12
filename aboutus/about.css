@@ -1,0 +1,410 @@
+    body {
+        width: 99%;
+        background-color: #fff8f8;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        margin-top: 3%;
+    }
+    
+    .main {
+        display: flex;
+        width: 100%;
+    }
+    
+    nav {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    nav h2 {
+        letter-spacing: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(54, 54, 54);
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 12px 16px;
+        width: 500px;
+        justify-content: space-between;
+    }
+    
+    li a {
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding: 4px 10px;
+        text-transform: uppercase;
+    }
+    
+    .navlink {
+        width: 20%;
+        display: inline-flex;
+    }
+    
+    .linke {
+        padding: 2px 14px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: none;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    
+    .navlink a {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .conatiner-2 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+    
+    .conatiner-2 .imgfirst2 {
+        width: 80%;
+        margin: 2%;
+        border-radius: 10px;
+        background-image: url("/home/anuj/Desktop/assignment_4/3.png");
+        background-size: cover;
+    }
+    
+    .conatiner-2 .textbox1 {
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .conatiner-2 .textbox1 h1 {
+        font-size: 18px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+    }
+    
+    .conatiner-2 .textbox1 p {
+        font-size: 26px;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+    
+    .conatiner-3 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+    
+    .conatiner-3 .imgfirst3 {
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .conatiner-3 .imgfirst3 img {
+        width: 100%;
+    }
+    
+    .conatiner-3 .textbox3 {
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .conatiner-3 .textbox3 h1 {
+        font-size: 18px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+    }
+    
+    .conatiner-3 .textbox3 p {
+        font-size: 26px;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+    
+    .conatiner-4 {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+    
+    .conatiner-4 .imgfirst4 {
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .conatiner-4 .imgfirst4 img {
+        width: 100%;
+    }
+    
+    .conatiner-4 .textbox4 {
+        width: 80%;
+        margin: 2%;
+    }
+    
+    .conatiner-4 .textbox4 h1 {
+        font-size: 18px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+    }
+    
+    .conatiner-4 .textbox4 p {
+        font-size: 26px;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+    
+    .containerfive {
+        width: 80%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .containerfive .textbox {
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+    
+    .containerfive .textbox p {
+        font-size: 32px;
+    }
+    
+    .containerlast {
+        background-color: #000000;
+        width: 90%;
+        padding: 5%;
+    }
+    
+    .containerlast small {
+        width: 60%;
+        padding: 5%;
+        padding: 2%;
+    }
+    
+    .containerlast .small p {
+        color: white;
+        font-size: 20px;
+    }
+    
+    link {
+        width: 90%;
+        display: inline-flex;
+        padding: 5%;
+    }
+    
+    .one {
+        padding: 4px 14px;
+        text-align: center;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 1px solid white;
+        background-color: none;
+        justify-content: space-between;
+    }
+    
+    .two {
+        padding: 4px 14px;
+        text-align: center;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 1px solid white;
+        background-color: none;
+    }
+    
+    .three {
+        padding: 4px 14px;
+        text-align: center;
+        display: inline-block;
+        margin: 2px 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border: 1px solid white;
+        background-color: none;
+    }
+    
+    .one a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .two a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .three a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        body {
+            background-color: rgb(255, 246, 234);
+        }
+        section {
+            width: 768px;
+        }
+        nav h2 {
+            display: none;
+        }
+        nav {
+            width: 768px;
+        }
+        nav ul {
+            width: 400px;
+        }
+        .conatiner-2 {
+            display: inherit;
+            width: 95%;
+        }
+        .conatiner-2 .imgfirst2 {
+            width: 95%;
+        }
+        .conatiner-2 .textbox1 {
+            width: 90%;
+        }
+        .conatiner-2 h1 {
+            margin-left: 30%;
+        }
+        .conatiner-2 p {
+            margin-left: 10%;
+            width: 500px;
+            display: flex;
+        }
+        .conatiner-3 {
+            display: inherit;
+            width: 90%;
+        }
+        .conatiner-3 .imgfirst3 {
+            width: 100%;
+            margin-left: 5%;
+        }
+        .conatiner-3.textbox1 {
+            width: 90%;
+        }
+        .conatiner-3 h1 {
+            width: 90%;
+            margin-left: 25%;
+        }
+        .conatiner-3 p {
+            margin-left: 20%;
+        }
+        .conatiner-4 {
+            display: inherit;
+            width: 90%;
+        }
+        .conatiner-4 .imgfirst4 {
+            width: 100%;
+        }
+        .conatiner-4.textbox1 {
+            width: 100%;
+        }
+        .conatiner-4 h1 {
+            width: 100%;
+            margin-left: 25%;
+        }
+        .conatiner-4 p {
+            margin-left: 20%;
+        }
+    }
+    
+    @media only screen and (max-width: 375px) {
+        body {
+            background-color: rgb(255, 246, 234);
+        }
+        nav h2 {
+            display: none;
+        }
+        nav ul {
+            width: 250px;
+        }
+        main .h2 {
+            width: 50px;
+            font-size: 10px;
+            margin-left: -50px;
+        }
+        ul {
+            width: 200px;
+        }
+        ul li a {
+            font-size: 10px;
+        }
+        .conatiner-2 {
+            width: 350px;
+        }
+        .conatiner-2 .imgfirst2 {
+            width: 300px;
+            margin-left: 15%;
+        }
+        .conatiner-2 .imgfirst2 img {
+            width: 300px;
+            margin-left: -30px;
+        }
+        .conatiner-2 .textbox1 {
+            width: 340px;
+            margin-left: 20px;
+        }
+        .conatiner-2 .textbox1 h1 {
+            width: 300px;
+            margin-left: 20px;
+        }
+        .conatiner-2 .textbox1 p {
+            width: 300px;
+            margin-left: -10px;
+        }
+        .conatiner-3 .textbox3 {
+            width: 300px;
+            margin-left: 20px;
+        }
+        .conatiner-3 .textbox3 h1 {
+            width: 280px;
+            margin-left: 15%;
+        }
+        .conatiner-3 .textbox3 p {
+            width: 300px;
+            margin-left: 20px;
+        }
+        .conatiner-4.textbox4 {
+            width: 300px;
+            margin-left: 20px;
+        }
+        .conatiner-4 .textbox4 h1 {
+            width: 250px;
+            margin-left: 40%;
+        }
+        .conatiner-4 .textbox4 p {
+            width: 300px;
+            margin-left: 20px;
+        }
+    }
